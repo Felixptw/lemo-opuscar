@@ -1,0 +1,6 @@
+Kochkanal-Figur "der ehrgeizige Anfänger" · Quellen
+
+Zeichnung    Figur, Requisiten und Hintergründe werden prozedural im Code gezeichnet (engine/, props.js, scene.js, sheet.js). Keine generierten Bilder.
+Engine       (MIT-Lizenz des Repos) engine/toon.js ist eine Kopie aus styles/midcentury-toon/demo/engine/ (Mid-century-Cartoon-Stil dieses Repos), unverändert.
+             engine/chars.js baut auf den Figurenfunktionen derselben Demo auf (Hände, Kopfkontur, Augen), Figur und Rig sind neu.
+Schriften    Oleo Script, Alfa Slab One, Jost: SIL Open Font License 1.1. Die Dateien sind nicht in git; tools/fonts.sh lädt sie nach fonts/.
